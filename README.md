@@ -1,9 +1,12 @@
-# GuildMap
-Guildmap 0.99 with fixes from version 1.0
+# GuildMap for TurtleWoW
 
-Allows you to follow other players movement who have the addon installed, if they are in the same channel as you.
+Fork of vanilla **GuildMap** for 1.12.1 which adds compatibility with custom zones and maps of TurtleWoW.
 
-### Setup
-In order to start tracking players, input a channel name that you want to use and tell other GuildMap users to join your channel.
+## Installation
 
-After they have joined your channel channel they will on appear on the map and you will appear on their map.
+1. Open `Code` dropdown menu (slightly to the top right)
+1. Select `Downloand as ZIP`
+1. Extract downloaded zip into `/Interface/AddOns`
+1. Rename folder to `GuildMap` from GuildMap-master
+
+> Make sure that the extracted folder doesn't contain another folder with the same name!

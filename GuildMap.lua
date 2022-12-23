@@ -381,11 +381,11 @@ function GuildMap_UpdateMiniMap()
 				xscale = xscale * GuildMap_Const[2][Minimap:GetZoom()].cityscale;
 				yscale = yscale * GuildMap_Const[2][Minimap:GetZoom()].cityscale;
 			end
-			local xpos = playerX * GuildMap_Const[continent][zone].scale + GuildMap_Const[continent][zone].xoffset;
-			local ypos = playerY * GuildMap_Const[continent][zone].scale + GuildMap_Const[continent][zone].yoffset;
+			local xpos = playerX * GuildMap_Const(continent, zone).scale + GuildMap_Const(continent, zone).xoffset;
+			local ypos = playerY * GuildMap_Const(continent, zone).scale + GuildMap_Const(continent, zone).yoffset;
 
-			x = x * GuildMap_Const[continent][zone].scale + GuildMap_Const[continent][zone].xoffset;
-			y = y * GuildMap_Const[continent][zone].scale + GuildMap_Const[continent][zone].yoffset;
+			x = x * GuildMap_Const(continent, zone).scale + GuildMap_Const(continent, zone).xoffset;
+			y = y * GuildMap_Const(continent, zone).scale + GuildMap_Const(continent, zone).yoffset;
 
 
 			local deltax = (xpos - x) * xscale;

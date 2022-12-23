@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: GuildMap
+## Title: GuildMap |cffcccccc[TurtleWoW]
 ## Title-ruRU: Карта гильдии
 ## Author: Bru on Blackhand
 ## Notes: Displays guild members on the world and mini map
